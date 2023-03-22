@@ -1,0 +1,8 @@
+D:\MYPROJECTSJAVA\oop6\bin\Debug\oop6.exe.config
+D:\MYPROJECTSJAVA\oop6\bin\Debug\oop6.exe
+D:\MYPROJECTSJAVA\oop6\bin\Debug\oop6.pdb
+D:\MYPROJECTSJAVA\oop6\obj\Debug\oop6.csproj.AssemblyReference.cache
+D:\MYPROJECTSJAVA\oop6\obj\Debug\oop6.csproj.SuggestedBindingRedirects.cache
+D:\MYPROJECTSJAVA\oop6\obj\Debug\oop6.csproj.CoreCompileInputs.cache
+D:\MYPROJECTSJAVA\oop6\obj\Debug\oop6.exe
+D:\MYPROJECTSJAVA\oop6\obj\Debug\oop6.pdb
