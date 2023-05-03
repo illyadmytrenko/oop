@@ -35,13 +35,13 @@ namespace oop8
             return vector;
         }
 
-        public static LinkedList<LinkedList<T>> GetOuterProduct<T>(T[] vector1, T[] vector2)
+        public static LinkedList<LinkedList<int>> GetOuterProduct(int[] vector1, int[] vector2)
         {
-            LinkedList<LinkedList<T>> matrix = new LinkedList<LinkedList<T>>();
-            foreach (T v1 in vector1)
+            LinkedList<LinkedList<int>> matrix = new LinkedList<LinkedList<int>>();
+            foreach (int v1 in vector1)
             {
-                LinkedList<T> row = new LinkedList<T>();
-                foreach (T v2 in vector2)
+                LinkedList<int> row = new LinkedList<int>();
+                foreach (int v2 in vector2)
                 {
                     row.AddLast(Multiply(v1, v2));
                 }
@@ -50,18 +50,16 @@ namespace oop8
             return matrix;
         }
 
-        public static T Multiply<T>(T a, T b)
+        public static int Multiply(int a, int b)
         {
-            dynamic dynamicA = a;
-            dynamic dynamicB = b;
-            return dynamicA * dynamicB;
+            return a * b;
         }
-        public static void PrintMatrix<T>(LinkedList<LinkedList<T>> matrix)
+        public static void PrintMatrix(LinkedList<LinkedList<int>> matrix)
         {
             Console.WriteLine("\nСтворена матриця: ");
-            foreach (LinkedList<T> row in matrix)
+            foreach (LinkedList<int> row in matrix)
             {
-                foreach (T el in row)
+                foreach (int el in row)
                 {
                     Console.Write(el + "\t");
                 }
